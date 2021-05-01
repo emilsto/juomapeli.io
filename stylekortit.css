@@ -1,0 +1,93 @@
+body {
+    size: 0;
+    background-color: #f9c1b1;
+    background-image: linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+
+}
+
+.logo-container{
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.button-interface{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+button {
+    min-width: 150px;
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+    cursor: pointer;
+    padding: 25px;
+    font-size: 16px;
+    border-radius: 3%;
+    border: 1px solid #FFF;/* this is for button border*/
+    background-color: transparent;
+
+  }
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+  }
+  button:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255,0.5);
+    transform: scale(1.2,1.2);
+  }
+  button:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+  
+  
+
+.page-content{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+

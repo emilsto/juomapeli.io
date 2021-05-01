@@ -1,0 +1,210 @@
+[
+    {
+      "suit": "hertta",
+      "value": 2
+    },
+    {
+      "suit": "hertta",
+      "value": 3
+    },
+    {
+      "suit": "hertta",
+      "value": 4
+    },
+    {
+      "suit": "hertta",
+      "value": 5
+    },
+    {
+      "suit": "hertta",
+      "value": 6
+    },
+    {
+      "suit": "hertta",
+      "value": 7
+    },
+    {
+      "suit": "hertta",
+      "value": 8
+    },
+    {
+      "suit": "hertta",
+      "value": 9
+    },
+    {
+      "suit": "hertta",
+      "value": 10
+    },
+    {
+      "suit": "hertta",
+      "value": "J"
+    },
+    {
+      "suit": "hertta",
+      "value": "Q"
+    },
+    {
+      "suit": "hertta",
+      "value": "K"
+    },
+    {
+      "suit": "hertta",
+      "value": "A"
+    },
+    {
+      "suit": "ruutu",
+      "value": 2
+    },
+    {
+      "suit": "ruutu",
+      "value": 3
+    },
+    {
+      "suit": "ruutu",
+      "value": 4
+    },
+    {
+      "suit": "ruutu",
+      "value": 5
+    },
+    {
+      "suit": "ruutu",
+      "value": 6
+    },
+    {
+      "suit": "ruutu",
+      "value": 7
+    },
+    {
+      "suit": "ruutu",
+      "value": 8
+    },
+    {
+      "suit": "ruutu",
+      "value": 9
+    },
+    {
+      "suit": "ruutu",
+      "value": 10
+    },
+    {
+      "suit": "ruutu",
+      "value": "J"
+    },
+    {
+      "suit": "ruutu",
+      "value": "Q"
+    },
+    {
+      "suit": "ruutu",
+      "value": "K"
+    },
+    {
+      "suit": "ruutu",
+      "value": "A"
+    },
+    {
+      "suit": "risti",
+      "value": 2
+    },
+    {
+      "suit": "risti",
+      "value": 3
+    },
+    {
+      "suit": "risti",
+      "value": 4
+    },
+    {
+      "suit": "risti",
+      "value": 5
+    },
+    {
+      "suit": "risti",
+      "value": 6
+    },
+    {
+      "suit": "risti",
+      "value": 7
+    },
+    {
+      "suit": "risti",
+      "value": 8
+    },
+    {
+      "suit": "risti",
+      "value": 9
+    },
+    {
+      "suit": "risti",
+      "value": 10
+    },
+    {
+      "suit": "risti",
+      "value": "J"
+    },
+    {
+      "suit": "risti",
+      "value": "Q"
+    },
+    {
+      "suit": "risti",
+      "value": "K"
+    },
+    {
+      "suit": "risti",
+      "value": "A"
+    },
+    {
+      "suit": "pata",
+      "value": 2
+    },
+    {
+      "suit": "pata",
+      "value": 3
+    },
+    {
+      "suit": "pata",
+      "value": 4
+    },
+    {
+      "suit": "pata",
+      "value": 5
+    },
+    {
+      "suit": "pata",
+      "value": 6
+    },
+    {
+      "suit": "pata",
+      "value": 7
+    },
+    {
+      "suit": "pata",
+      "value": 8
+    },
+    {
+      "suit": "pata",
+      "value": 9
+    },
+    {
+      "suit": "pata",
+      "value": 10
+    },
+    {
+      "suit": "pata",
+      "value": "J"
+    },
+    {
+      "suit": "pata",
+      "value": "Q"
+    },
+    {
+      "suit": "pata",
+      "value": "K"
+    },
+    {
+      "suit": "pata",
+      "value": "A"
+    }
+  ]

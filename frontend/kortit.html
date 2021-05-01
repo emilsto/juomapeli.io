@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>juomapeli.io</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/stylekortit.css" />
+  </head>
+  <body>
+    <div class="logo-container">
+      <img src="./images/juomapeli_logo_transparent.png" alt="logo" />
+    </div>
+
+    <div class="button-interface">
+      <button class="button" onclick="showData()">Nosta kortti</button>
+      <button class="button" onclick="getData()">Sekoita pakka</button>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="card-container">
+      <div class="left-corner-up">
+        <p id="cardnmu">9</p>
+      </div>
+
+      <div class="card-stat" id="cards">
+        <img src="./faces/spade_small.png" width="100%" height="auto" />
+      </div>
+
+      <div class="right-corner-down">
+        <p id="cardnmd">9</p>
+      </div>
+    </div>
+
+    <script src="kortit.js" async defer></script>
+    <script type="text/javascript" src="./deck/deck.json"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>

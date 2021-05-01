@@ -1,8 +1,8 @@
 {
   "name": "juomapeli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "juomapeli",
+  "main": "kortit.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://gitlab.tamk.cloud/es/juomapeli.io.git"
   },
-  "author": "",
+  "author": "emil k",
   "license": "ISC",
   "dependencies": {
     "browserify": "^17.0.0"

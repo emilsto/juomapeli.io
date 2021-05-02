@@ -14,8 +14,8 @@
     </div>
 
     <div class="button-interface">
-      <button class="button" onclick="showData()">Nosta kortti</button>
-      <button class="button" onclick="getData()">Sekoita pakka</button>
+      <button class="button" id="myBtn2">Nosta kortti</button>
+      <button class="button" id="myBtn">Sekoita pakka</button>
     </div>
 
     <div class="separator"></div>
@@ -26,7 +26,12 @@
       </div>
 
       <div class="card-stat" id="cards">
-        <img src="./faces/spade_small.png" width="100%" height="auto" />
+        <img
+          id="suit"
+          src="./faces/spade_small.png"
+          width="100%"
+          height="auto"
+        />
       </div>
 
       <div class="right-corner-down">
@@ -34,8 +39,7 @@
       </div>
     </div>
 
-    <script src="kortit.js" async defer></script>
-    <script type="text/javascript" src="./deck/deck.json"></script>
+    <script src="bundle.js" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>

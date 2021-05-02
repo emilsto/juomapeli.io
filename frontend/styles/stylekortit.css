@@ -30,6 +30,7 @@ body {
 }
 
 .card-container {
+  background-color: #fff;
   border: 2px solid #fff;
   border-radius: 5%;
   min-width: 96mm;
@@ -52,12 +53,12 @@ body {
 }
 
 .left-corner-up {
-  color: #fff;
+  color: black;
   font-size: 16px;
   margin: 0;
   position: absolute;
   top: -10%;
-  left: 8%;
+  left: 5%;
 }
 
 #cardnmu {
@@ -65,11 +66,11 @@ body {
 }
 
 .right-corner-down {
-  color: #fff;
+  color: black;
   margin: 0;
   position: absolute;
   top: 70%;
-  left: 82%;
+  left: 75%;
 }
 #cardnmd {
   font-size: 64px;

@@ -1,3 +1,9 @@
+ //Grab json data
+const cards = require("./deck/deck.json");
+var deck = getDeck();
+console.log("sekoitettu pakka1: ",deck);
+var clicks = 0;
+
 //shuffle deck
 function shuffle(array) {
   array.sort(() => Math.random() - 0.5);
@@ -6,20 +12,28 @@ function shuffle(array) {
 document.getElementById("myBtn").addEventListener("click", getDeck);
 document.getElementById("myBtn2").addEventListener("click", drawCard);
 
+//grab deck to a var, shuffle
 function getDeck() {
-  //Grab json data
-  const cards = require("./deck/deck.json");
-  shuffle(cards);
-  console.log("sekoitettu pakka:", cards);
+  var deck = cards;
+  shuffle(deck);
+  console.log("sekoitettu pakka2:", deck);
 
-  return cards;
+  clicks = 0;
+  document.getElementById("cardnmu").innerHTML = "";
+  document.getElementById("cardnmd").innerHTML = "";
+  document.getElementById("suit").src = "./images/juomapeli_logo_transparent.png";
+
+  return deck;
+  
 }
-getDeck();
 
 function drawCard() {
-  var deck = getDeck();
 
-  index = 0;
+  index = clicks;
+
+  console.log(clicks);
+  if (index < 52){
+
 
   document.getElementById("cardnmu").innerHTML = deck[index].value;
   document.getElementById("cardnmd").innerHTML = deck[index].value;
@@ -42,4 +56,14 @@ function drawCard() {
     console.log("risti");
     document.getElementById("suit").src = "./faces/spade_small.png";
   }
+  clicks++;
+}
+
+else {
+
+  document.getElementById("cardnmu").innerHTML = "";
+  document.getElementById("cardnmd").innerHTML = "";
+  document.getElementById("suit").src = "./images/juomapeli_logo_transparent.png";
+
+}
 }

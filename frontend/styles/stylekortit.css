@@ -203,8 +203,8 @@ form {
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 5%;
-    min-width: 76.8mm;
-    min-height: 106.8mm;
+    min-width: 84.48mm;
+    min-height: 117.48mm;
     margin: 0;
     position: absolute;
     top: 60%;
@@ -228,7 +228,7 @@ form {
     margin: 0;
     position: absolute;
     top: -16%;
-    left: 5%;
+    left: 4%;
   }
 
   #cardnmu {
@@ -239,8 +239,8 @@ form {
     color: black;
     margin: 0;
     position: absolute;
-    top: 65%;
-    left: 75%;
+    top: 70%;
+    left: 80%;
   }
   #cardnmd {
     font-size: 64px;
@@ -279,12 +279,9 @@ form {
   }
   .form-interface1 {
     margin: auto;
-    max-width: 80%;
+    padding-left: 10%;
+    max-width: 100%;
     max-height: auto;
-  }
-  form#myBtn2 {
-    margin: auto;
-    float: left;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -292,10 +289,16 @@ form {
     -ms-user-select: none;
     user-select: none;
   }
+  form#myBtn2 {
+    margin: auto;
+    float: left;
+
+  }
 
   .form-interface2 {
     margin: auto;
-    max-width: 80%;
+    padding-right: 10%;
+    max-width: 100%;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;

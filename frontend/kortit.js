@@ -33,16 +33,19 @@ function drawCard() {
   console.log(clicks);
   if (index < 52) {
     if (deck[index].value < 10) {
-      document.getElementById("right").style.left = "80%";
+      document.getElementById("right").style.left = "81%";
+      document.getElementById("left").style.left = "4%";
     } else if (
       deck[index].value == "A" ||
       deck[index].value == "K" ||
       deck[index].value == "Q" ||
       deck[index].value == "J"
     ) {
-      document.getElementById("right").style.left = "80%";
+      document.getElementById("right").style.left = "81%";
+      document.getElementById("left").style.left = "4%";
     } else {
-      document.getElementById("right").style.left = "75%";
+      document.getElementById("right").style.left = "74%";
+      document.getElementById("left").style.left = "0%";
     }
 
     document.getElementById("cardnmu").innerHTML = deck[index].value;
@@ -51,26 +54,26 @@ function drawCard() {
     console.log(deck[index]);
 
     if (deck[index].suit === "pata") {
-      document.getElementById("suit").src = "./faces/shovel_small.png";
+      document.getElementById("suit").src = "./faces/pata.png";
       document.getElementById("cardnmu").style.color = "black";
       document.getElementById("cardnmd").style.color = "black";
 
       console.log("pata");
     } else if (deck[index].suit === "hertta") {
-      document.getElementById("suit").src = "./faces/realheart_red.png";
+      document.getElementById("suit").src = "./faces/hertta.png";
       document.getElementById("cardnmu").style.color = "#8B0000";
       document.getElementById("cardnmd").style.color = "#8B0000";
 
       console.log("hertta");
     } else if (deck[index].suit === "ruutu") {
-      document.getElementById("suit").src = "./faces/diamond_red.png";
+      document.getElementById("suit").src = "./faces/ruutu.png";
       document.getElementById("cardnmu").style.color = "#8B0000";
       document.getElementById("cardnmd").style.color = "#8B0000";
 
       console.log("ruutu");
     } else if (deck[index].suit === "risti") {
       console.log("risti");
-      document.getElementById("suit").src = "./faces/spade_small.png";
+      document.getElementById("suit").src = "./faces/risti.png";
       document.getElementById("cardnmu").style.color = "black";
       document.getElementById("cardnmd").style.color = "black";
     }

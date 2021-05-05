@@ -11,12 +11,11 @@ body {
 
 .logo-container {
   margin: auto;
-  max-width: 1024px;
+  max-width: 790px;
   height: auto;
 }
 
 .logo {
-  padding-left: 8.5%;
   margin: auto;
   max-width: 100%;
   max-height: auto;
@@ -30,10 +29,12 @@ body {
 
 .form-interface1 {
   margin: auto;
-  max-width: 50%;
+  max-width: 790px;
   max-height: auto;
+  padding-left: 10%;
 }
 form#myBtn2 {
+ 
   margin: auto;
   float: left;
   -webkit-touch-callout: none;
@@ -45,20 +46,20 @@ form#myBtn2 {
 }
 
 .form-interface2 {
+  padding-right: 10%;
   margin: auto;
-  max-width: 50%;
+  max-width: 790px;
+}
+form#myBtn {
+  margin: auto;
+  float: right;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   max-height: auto;
-}
-form#myBtn {
-  margin: auto;
-  float: right;
 }
 
 form {

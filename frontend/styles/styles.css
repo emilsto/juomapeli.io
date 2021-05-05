@@ -11,12 +11,12 @@ body {
 
 .logo-container {
   margin: auto;
-  max-width: 1024px;
+  max-width: 790px;
   height: auto;
 }
 
 .logo {
-  padding-left: 8.5%;
+  padding-left: 0%;
   margin: auto;
   max-width: 100%;
   max-height: auto;
@@ -29,8 +29,9 @@ body {
 }
 
 .button-interface {
+  padding-left: 0%;
   margin: auto;
-  max-width: 50%;
+  max-width: 790px;
   max-height: auto;
 }
 
@@ -40,8 +41,9 @@ body {
 }
 
 .button-interface2 {
+  padding-right: 0%;
   margin: auto;
-  max-width: 50%;
+  max-width: 790px;
   max-height: auto;
 }
 
@@ -163,7 +165,7 @@ form {
   }
 
   .logo {
-    padding-left: 0%;
+
     margin: auto;
     max-width: 100%;
     max-height: auto;
@@ -176,6 +178,7 @@ form {
   }
 
   .button-interface {
+
     margin: auto;
     max-width: 100%;
     max-height: auto;

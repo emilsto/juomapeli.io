@@ -10,12 +10,18 @@
   </head>
   <body>
     <div class="logo-container">
-      <img src="./images/juomapeli_logo_transparent.png" alt="logo" />
+      <img
+        class="logo"
+        src="./images/juomapeli_logo_transparent.png"
+        alt="logo"
+      />
     </div>
 
-    <div class="button-interface">
-      <button class="button" id="myBtn2">Nosta kortti</button>
-      <button class="button" id="myBtn">Sekoita pakka</button>
+    <div class="form-interface1">
+      <form class="form" id="myBtn2">Nosta kortti</form>
+    </div>
+    <div class="form-interface2">
+      <form class="form" id="myBtn">Sekoita pakka</form>
     </div>
 
     <div class="separator"></div>
@@ -34,12 +40,15 @@
         />
       </div>
 
-      <div class="right-corner-down">
+      <div class="right-corner-down" id="right">
         <p id="cardnmd"></p>
       </div>
     </div>
 
     <script src="bundle.js" async defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/434f72179a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

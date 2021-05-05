@@ -11,17 +11,31 @@
   </head>
   <body>
     <div class="logo-container">
-      <img src="./images/juomapeli_logo_transparent.png" alt="logo" />
+      <img
+        class="logo"
+        src="./images/juomapeli_logo_transparent.png"
+        alt="logo"
+      />
     </div>
-    <div class="construction">
-      <img src="./images/construction2.png" alt="construction" />
-    </div>
+
+    <div class="space-maker"></div>
 
     <div class="button-interface">
-      <button class="button" onclick="toCards()">Kortit</button>
-      <button class="button" onclick="toGames()">Pelit</button>
+      <form class="button1" onclick="toCards()">Pelikortit</form>
     </div>
 
+    <div class="button-interface2">
+      <form class="button2" onclick="toGames()">Juomapelit</form>
+    </div>
+
+    <footer class="footer">
+      <b></b>
+    </footer>
+
     <script src="scripts.js" async defer></script>
+    <script
+      src="https://kit.fontawesome.com/434f72179a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

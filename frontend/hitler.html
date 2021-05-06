@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>juomapeli.io</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/styles-hitler.css" />
+    <link rel="icon" href="./images/juomapeli_logo_transparent.png" />
+  </head>
+  <body>
+    <div class="alert" id="wrong-move">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+      <strong>Virhe!</strong> Lisää vähintään yksi pelaaja.
+    </div>
+    <div class="alert" id="wrong-move2">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Virhe!</strong> Pelaajalla täytyy olla nimi!
+      </div>
+      
+    
+    <div class="logo-container">
+      <a href="index.html">
+      <img
+        class="logo"
+        src="./images/juomapeli_logo_transparent.png"
+        alt="logo"
+      />
+    </a>
+    </div>
+    <div class="space-maker"></div>
+
+    <div class="input-player"  id="rm1">
+
+        <input type="text" id="name" name="name"size="15" placeholder="Pelaajan 1 nimi...">
+    </div>
+
+    <div class="add-player"id="rm2">
+
+        <form class="button1" onclick="playerAdder()">Lisää pelaaja!</form>
+
+    </div>
+
+
+
+    <div class="start-game"id="rm3">
+
+        <form class="button2" onclick="rm_content()">Aloita peli!</form>
+
+    </div>
+
+
+
+
+
+    <script src="hitler.js" async defer></script>
+  </body>
+</html>

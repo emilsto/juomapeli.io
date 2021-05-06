@@ -17,19 +17,57 @@
     <div class="alert" id="wrong-move2">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
         <strong>Virhe!</strong> Pelaajalla täytyy olla nimi!
-      </div>
-      
-    
-    <div class="logo-container">
-      <a href="index.html">
-      <img
-        class="logo"
-        src="./images/juomapeli_logo_transparent.png"
-        alt="logo"
-      />
-    </a>
     </div>
-    <div class="space-maker"></div>
+
+        
+    <div class="logo-container">
+        <a href="index.html">
+        <img
+          class="logo"
+          src="./images/juomapeli_logo_transparent.png"
+          alt="logo"
+        />
+      </a>
+      </div>
+
+      <div class="space-maker"></div>
+
+    <div id="card-holder">
+
+        <div class="form-interface1">
+          <form class="form" id="myBtn2">Nosta kortti</form>
+        </div>
+        <div class="form-interface2">
+          <form class="form" id="myBtn">Sekoita pakka</form>
+        </div>
+    
+        <div class="separator">
+    
+        </div>
+    
+        <div class="card-container">
+          <div class="left-corner-up" id="left">
+            <p id="cardnmu"></p>
+          </div>
+    
+          <div class="card-stat" id="cards">
+            <img
+              id="suit"
+              src="./images/juomapeli_logo_transparent.png"
+              width="100%"
+              height="auto"
+            />
+          </div>
+    
+          <div class="right-corner-down" id="right">
+            <p id="cardnmd"></p>
+          </div>
+        </div>
+    </div>
+    
+
+
+
 
     <div class="input-player"  id="rm1">
 
@@ -38,22 +76,22 @@
 
     <div class="add-player"id="rm2">
 
-        <form class="button1" onclick="playerAdder()">Lisää pelaaja!</form>
+        <form class="button1" onclick="playerAdder()">Lisää pelaaja</form>
 
     </div>
 
 
 
     <div class="start-game"id="rm3">
+        <form class="button2" onclick="rm_content()">Aloita peli</form>
+    </div>
 
-        <form class="button2" onclick="rm_content()">Aloita peli!</form>
-
+    <div class="player-action">
+        <p id="inject-action">Test</p>
     </div>
 
 
-
-
-
     <script src="hitler.js" async defer></script>
+    <script src="bundle.js" async defer></script>
   </body>
 </html>

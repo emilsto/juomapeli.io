@@ -3,6 +3,8 @@ const cards = require("./deck/deck.json");
 var deck = getDeck();
 var clicks = 0;
 
+
+
 //shuffle deck
 function shuffle(array) {
   array.sort(() => Math.random() - 0.5);

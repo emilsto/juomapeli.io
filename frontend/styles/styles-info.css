@@ -22,38 +22,19 @@ body {
   max-width: 100%;
   max-height: auto;
   position: relative;
-  padding-bottom: 10%;
 }
 
-
-
-.button-interface {
-  display: flex;
-  flex-wrap: nowrap;
-  font-size: large;
+.space-maker {
+  height: 200px;
+  width: 500px;
 }
 
-.button1 {
-  margin: auto;
-  float: left;
-  min-width: 190px;
-
+.pirkka {
+  max-width: 790px;
+  width: 85%;
+  height: auto;
 }
 
-.button-interface2 {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.button2 {
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  cursor: pointer;
-  min-width: 190px;
-  max-width: 1px;
-  
-}
 
 .footer {
   position: fixed;
@@ -68,6 +49,7 @@ body {
 form {
   position: relative;
   text-align: center;
+  width: 30%;
   color: #fff;
   transition: all 0.5s;
   cursor: pointer;

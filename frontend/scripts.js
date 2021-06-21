@@ -1,5 +1,5 @@
 function toGames() {
-  location.href = "pelit.html";
+  location.href = "info.html";
 }
 function toCards() {
   location.href = "kortit.html";

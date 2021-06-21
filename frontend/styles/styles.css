@@ -29,10 +29,9 @@ body {
 }
 
 .button-interface {
-  padding-left: 0%;
-  margin: auto;
-  max-width: 790px;
-  max-height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: large;
 }
 
 .button1 {
@@ -41,10 +40,8 @@ body {
 }
 
 .button-interface2 {
-  padding-right: 0%;
-  margin: auto;
-  max-width: 790px;
-  max-height: auto;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .button2 {

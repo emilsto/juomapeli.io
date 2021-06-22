@@ -11,84 +11,80 @@
   </head>
   <body>
     <div class="alert" id="wrong-move">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+      <span class="closebtn" onclick="this.parentElement.style.display='none';"
+        >&times;</span
+      >
       <strong>Virhe!</strong> Lisää vähintään yksi pelaaja.
     </div>
     <div class="alert" id="wrong-move2">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-        <strong>Virhe!</strong> Pelaajalla täytyy olla nimi!
+      <span class="closebtn" onclick="this.parentElement.style.display='none';"
+        >&times;</span
+      >
+      <strong>Virhe!</strong> Pelaajalla täytyy olla nimi!
     </div>
 
-        
     <div class="logo-container">
-        <a href="index.html">
+      <a href="index.html">
         <img
           class="logo"
           src="./images/juomapeli_logo_transparent.png"
           alt="logo"
         />
       </a>
-      </div>
+    </div>
 
-      <div class="space-maker"></div>
+    <div class="space-maker"></div>
 
     <div id="card-holder">
+      <div class="form-interface1">
+        <form class="form" id="myBtn2">Nosta kortti</form>
+      </div>
+      <div class="form-interface2">
+        <form class="form" id="myBtn">Sekoita pakka</form>
+      </div>
 
-        <div class="form-interface1">
-          <form class="form" id="myBtn2">Nosta kortti</form>
+      <div class="separator"></div>
+
+      <div class="card-container">
+        <div class="left-corner-up" id="left">
+          <p id="cardnmu"></p>
         </div>
-        <div class="form-interface2">
-          <form class="form" id="myBtn">Sekoita pakka</form>
+
+        <div class="card-stat" id="cards">
+          <img
+            id="suit"
+            src="./images/juomapeli_logo_transparent.png"
+            width="100%"
+            height="auto"
+          />
         </div>
-    
-        <div class="separator">
-    
+
+        <div class="right-corner-down" id="right">
+          <p id="cardnmd"></p>
         </div>
-    
-        <div class="card-container">
-          <div class="left-corner-up" id="left">
-            <p id="cardnmu"></p>
-          </div>
-    
-          <div class="card-stat" id="cards">
-            <img
-              id="suit"
-              src="./images/juomapeli_logo_transparent.png"
-              width="100%"
-              height="auto"
-            />
-          </div>
-    
-          <div class="right-corner-down" id="right">
-            <p id="cardnmd"></p>
-          </div>
-        </div>
-    </div>
-    
-
-
-
-
-    <div class="input-player"  id="rm1">
-
-        <input type="text" id="name" name="name"size="15" placeholder="Pelaajan 1 nimi...">
+      </div>
     </div>
 
-    <div class="add-player"id="rm2">
-
-        <form class="button1" onclick="playerAdder()">Lisää pelaaja</form>
-
+    <div class="input-player" id="rm1">
+      <input
+        type="text"
+        id="name"
+        name="name"
+        size="15"
+        placeholder="Pelaajan 1 nimi..."
+      />
     </div>
 
+    <div class="add-player" id="rm2">
+      <form class="button1" onclick="playerAdder()">Lisää pelaaja</form>
+    </div>
 
-
-    <div class="start-game"id="rm3">
-        <form class="button2" onclick="rm_content()">Aloita peli</form>
+    <div class="start-game" id="rm3">
+      <form class="button2" onclick="rm_content()">Aloita peli</form>
     </div>
 
     <div class="player-action">
-        <p id="inject-action">Test</p>
+      <p id="inject-action">Test</p>
     </div>
-
   </body>
 </html>

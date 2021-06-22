@@ -4,3 +4,6 @@ function toGames() {
 function toCards() {
   location.href = "kortit.html";
 }
+function toPlay() {
+  location.href = "game.html";
+}

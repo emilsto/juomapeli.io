@@ -22,39 +22,16 @@ body {
   max-width: 100%;
   max-height: auto;
   position: relative;
+  padding-bottom: 10%;
 }
 
-.space-maker {
-  height: 200px;
+.game {
+  height: 500px;
   width: 500px;
+  margin: auto;
 }
 
-.pirkka {
-  max-width: 790px;
-  width: 85%;
-  height: auto;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: transparent;
-  color: white;
-  text-align: right;
-}
-
-form {
-  position: relative;
-  text-align: center;
-  width: 30%;
-  color: #fff;
-  transition: all 0.5s;
-  cursor: pointer;
-  padding: 25px;
-  font-size: 32px;
-  border-radius: 3%;
-  border: 1px solid #fff;
-  background-color: transparent;
+#gameArea {
+  width: 500px;
+  height: 500px;
 }

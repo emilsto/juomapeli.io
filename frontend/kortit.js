@@ -48,22 +48,18 @@ function drawCard() {
     document.getElementById("cardnmu").innerHTML = deck[index].value;
     document.getElementById("cardnmd").innerHTML = deck[index].value;
 
-
     if (deck[index].suit === "pata") {
       document.getElementById("suit").src = "./faces/pata.png";
       document.getElementById("cardnmu").style.color = "black";
       document.getElementById("cardnmd").style.color = "black";
-
     } else if (deck[index].suit === "hertta") {
       document.getElementById("suit").src = "./faces/hertta.png";
       document.getElementById("cardnmu").style.color = "#8B0000";
       document.getElementById("cardnmd").style.color = "#8B0000";
-
     } else if (deck[index].suit === "ruutu") {
       document.getElementById("suit").src = "./faces/ruutu.png";
       document.getElementById("cardnmu").style.color = "#8B0000";
       document.getElementById("cardnmd").style.color = "#8B0000";
-
     } else if (deck[index].suit === "risti") {
       document.getElementById("suit").src = "./faces/risti.png";
       document.getElementById("cardnmu").style.color = "black";

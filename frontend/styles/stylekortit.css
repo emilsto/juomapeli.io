@@ -30,19 +30,26 @@ body {
   padding: 20px;
   justify-content: space-between;
   row-gap: 10px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .form-interface1 {
   min-width: 100px;
   padding-left: 10%;
   font-size: larger;
-
 }
 
+.separator {
+  width: 20px;
+}
 
 .form-interface2 {
   min-width: 100px;
-
   padding-right: 10%;
   font-size: larger;
 }
@@ -58,22 +65,27 @@ form {
   background-color: transparent;
 }
 
-.bigcard-container{
+.bigcard-container {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   margin: auto;
   max-width: 360px;
-  min-height: 600px;
-
+  min-height: 450px;
 }
 
 .card-container {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
   border: 2px solid #fff;
   border-radius: 5%;
   width: 90%;
-  height: 133.5mm;
-  position: relative;
+  height: 12cm;
 }
 
 .card-stat {
@@ -86,7 +98,6 @@ form {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 
 .left-corner-up {
   color: black;

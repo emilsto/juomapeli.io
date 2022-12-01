@@ -1,4 +1,4 @@
 # juomapeli.io
 
 Juomapeli kaikille janoisille, omassa selaimesassi!
-live -> http://normipaiva.fun
+Vanilla HTML/CSS/JS project
